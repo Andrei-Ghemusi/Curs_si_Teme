@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/exercitii_online/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/exercitii_online/venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/exercitii_online/venv/Scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/freeCode_Intro/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/freeCode_Intro/venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/freeCode_Intro/venv/Scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/Git&amp;Gihub/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Git&amp;Gihub/venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/Git&amp;Gihub/venv/Scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/intro/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/intro/venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/intro/venv/Scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/IntroPython/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/IntroPython/venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/IntroPython/venv/Scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/pythonProject/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/pythonProject/venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/pythonProject/venv/Scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/tema/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/tema/venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/tema/venv/Scripts" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="py.test" />
+  </component>
+</module>
