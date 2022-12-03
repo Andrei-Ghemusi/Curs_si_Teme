@@ -23,8 +23,14 @@
       <excludeFolder url="file://$MODULE_DIR$/tema/venv" />
       <excludeFolder url="file://$MODULE_DIR$/tema/venv/Lib" />
       <excludeFolder url="file://$MODULE_DIR$/tema/venv/Scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/exercitii_online" />
+      <excludeFolder url="file://$MODULE_DIR$/freeCode_Intro" />
+      <excludeFolder url="file://$MODULE_DIR$/Git&amp;Gihub" />
+      <excludeFolder url="file://$MODULE_DIR$/intro" />
+      <excludeFolder url="file://$MODULE_DIR$/IntroPython" />
+      <excludeFolder url="file://$MODULE_DIR$/pythonProject" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
