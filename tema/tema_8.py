@@ -21,7 +21,6 @@ de mai sus, astfel că îți recomandăm să folosești mai multe site-uri
 Interactionează cu un element la alegere din listă.
 '''
 
-
 '''
 !!\\\\\\\!!!
 
@@ -190,6 +189,7 @@ ce element vreau să interacționez.
 # chrome.quit()
 
 
+
 # chrome = webdriver.Chrome()
 # chrome.maximize_window()
 # chrome.get('https://phptravels.net/')
@@ -204,8 +204,12 @@ ce element vreau să interacționez.
 #     input.send_keys(input_value)
 # choice('First Name', 'Andrei')
 # choice('Last Name', 'Ghemusi')
+# choice('Email', 'andreighemusi@gamil.com')
 # choice('Phone', '070000000')
-# time.sleep(4)
+# choice('Password', 'alabalaportocala')
+# time.sleep(1)
+# chrome.find_element(By.XPATH, '//*[@id="select2-account_type-container"]').click()
+# time.sleep(2)
 # chrome.quit()
 
 
