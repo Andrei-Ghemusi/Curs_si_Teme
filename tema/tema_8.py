@@ -33,8 +33,10 @@ E posibil ca cele de la heroku si phptravels sa nu mearga site-ul in sine :(
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 
-# chrome = webdriver.Chrome()
+
+# chrome = webdriver.Chrome(executable_path= ChromeDriverManager().install)
 # chrome.maximize_window()
 # chrome.get('https://formy-project.herokuapp.com/')
 # time.sleep(2)
@@ -55,7 +57,7 @@ from selenium.webdriver.common.by import By
 # time.sleep(2)
 
 
-# chrome = webdriver.Chrome()
+# chrome = webdriver.Chrome(executable_path= ChromeDriverManager().install)
 # chrome.maximize_window()
 # chrome.get('https://the-internet.herokuapp.com/')
 # time.sleep(2)
@@ -72,7 +74,7 @@ from selenium.webdriver.common.by import By
 
 
 # CSS
-# chrome = webdriver.Chrome()
+# chrome = webdriver.Chrome(executable_path= ChromeDriverManager().install)
 # chrome.maximize_window()
 # chrome.get('https://the-internet.herokuapp.com/login')
 # time.sleep(1)
@@ -87,7 +89,7 @@ from selenium.webdriver.common.by import By
 # time.sleep(1)
 # chrome.quit()
 
-# chrome = webdriver.Chrome()
+# chrome = webdriver.Chrome(executable_path= ChromeDriverManager().install)
 # chrome.maximize_window()
 # chrome.get('https://jules.app/sign-in')
 # time.sleep(1)
@@ -102,7 +104,7 @@ from selenium.webdriver.common.by import By
 
 
 
-# chrome = webdriver.Chrome()
+# chrome = webdriver.Chrome(executable_path= ChromeDriverManager().install)
 # chrome.maximize_window()
 # chrome.get('https://the-internet.herokuapp.com/login')
 # verificare = chrome.find_element(By.CSS_SELECTOR, 'div.row > div:first-of-type label').text
@@ -132,7 +134,7 @@ cu (xpath)[1]
 ce element vreau să interacționez.
 '''
 
-# chrome = webdriver.Chrome()
+# chrome = webdriver.Chrome(executable_path= ChromeDriverManager().install)
 # chrome.maximize_window()
 # chrome.get('https://jules.app/sign-in')
 # chrome.find_element(By.XPATH, '//div[@class="css-1rs1o1r"][1]//input').send_keys('vasilescu@gmail.com')
@@ -145,7 +147,7 @@ ce element vreau să interacționez.
 
 
 
-# chrome = webdriver.Chrome()
+# chrome = webdriver.Chrome(executable_path= ChromeDriverManager().install)
 # chrome.maximize_window()
 # chrome.get('https://www.techlistic.com/p/selenium-practice-form.html')
 # time.sleep(1)
@@ -169,7 +171,7 @@ ce element vreau să interacționez.
 # chrome.quit()
 
 
-# chrome = webdriver.Chrome()
+# chrome = webdriver.Chrome(executable_path= ChromeDriverManager().install)
 # chrome.maximize_window()
 # chrome.get('https://the-internet.herokuapp.com/')
 # time.sleep(2)
@@ -190,7 +192,7 @@ ce element vreau să interacționez.
 
 
 
-# chrome = webdriver.Chrome()
+# chrome = webdriver.Chrome(executable_path= ChromeDriverManager().install)
 # chrome.maximize_window()
 # chrome.get('https://phptravels.net/')
 # time.sleep(1)
